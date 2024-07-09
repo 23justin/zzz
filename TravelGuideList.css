@@ -1,0 +1,51 @@
+.guide-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .guides {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .guide {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .guide img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .guide h2 {
+    margin-bottom: 5px;
+  }
+  
+  .guide p {
+    margin-bottom: 10px;
+  }
+  
+  .guide button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .guide button:hover {
+    background-color: #0056b3;
+  }
+  

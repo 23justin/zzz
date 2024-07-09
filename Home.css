@@ -1,0 +1,63 @@
+.landing-page {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  .header h3 {
+    margin-bottom: 20px;
+  }
+  
+  .header .login-btnn {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .header .login-btnn:hover {
+    background-color: #0056b3;
+  }
+  
+  .featured-guides {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .guide-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .guide-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .guide-card h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .contact {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .contact h2 {
+    margin-bottom: 10px;
+  }
+  

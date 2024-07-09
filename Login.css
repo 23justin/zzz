@@ -1,0 +1,54 @@
+.sign-in-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  form h1 {
+    margin-bottom: 1rem;
+  }
+  
+  form input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
+  form p {
+    margin-top: 1rem;
+  }
+  
+  form p a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  form p a:hover {
+    text-decoration: underline;
+  }
+  
